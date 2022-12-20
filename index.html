@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- css link -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Zilla+Slab:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- icon CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- js -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- java script link -->
+  <script defer src="./assets/js/main.js"></script>
+  <script defer src="assets/js/section4.js"></script>
+  <!-- title for project -->
+  <title>centelli</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./assets/images/logo-centelli.svg" alt="" />
+    </div>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#">why centeli</a></li>
+          <li id="list1">
+            <span class="tooltipText">
+              <a href="" class="we">robotic process automation</a><br />
+              <a href="" class="we">business intelligence</a>
+            </span>
+            <a href="#">what we do</a>
+          </li>
+
+          <li id="list2">
+            <a href="#">experience</a>
+            <span class="tooltipText2">
+              <a href="" class="we">case studies</a><br />
+              <a href="" class="we">sector specialism</a>
+            </span>
+          </li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+      <div class="letschat">
+        <a href="#" class="chat" onclick="openPopup()">Let's chat
+          <img src="./assets/images/icon-contact.svg" alt="" class="chat-a" /></a>
+      </div>
+      <div class="popup">
+        <button class="close" onclick="closePopup()">CLOSE</button>
+        <h3 class="business">Your business transformation starts here</h3>
+        <p class="send-us">
+          Send us a message and learn how We can improve business for maximun
+          ROI
+        </p>
+        <p class="submission">
+          <span>There was a problem with your submission.Please review the fields
+            below.
+          </span>
+        </p>
+        <form class="popup-input" action="index.html">
+          <input type="text" placeholder="Name*" class="inputbox" id="inputbox1" />
+          <p class="error">This Field is Required</p>
+          <input type="number" placeholder="Phone" class="inputbox" id="box1" maxlength="10" />
+          <input type="email" placeholder="Email*" class="inputbox" id="email" />
+          <p class="error1">This Field is Required</p>
+          <textarea class="msg" placeholder="message" id="msg"></textarea>
+        </form>
+        <p class="policy">
+          This form collects your information to enable us to deal with your
+          enquiry.Read our <a href="">Privacy policy</a> for more information
+          about how we manage your data.
+        </p>
+        <button class="getstarted" onClick="validate()">Get started</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- banner section -->
+  <section class="banner_section">
+    <div class="banner_content">
+      <span class="banner_span">Robotic Process Automation</span>
+      <h1 class="banner_h1">The most efficient worker you will ever have</h1>
+      <a href="#" class="btn-1 btn">What is RPA?</a>
+      <a href="#" class="btn-2 btn">WhY Centelli?</a>
+    </div>
+
+
+    <div class="hero_image">
+      <img src="./assets/images/img-home-hero.svg" alt="" id="sr">
+    </div>
+
+
+  </section>
+
+  <!-- end banner -->
+
+  <!-- iframe -->
+  <!--FREE UP -->
+  <div class="container">
+    <!-- YOUTUBE SECTION -->
+    <div class="youtube">
+      <iframe src="https://www.youtube.com/embed/Rd2qFnA-LP8" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <!-- CONTENT SECTION -->
+    <div class="content">
+      <h2 class="content-head">Free up your people to do what they do best</h2>
+      <img src="./assets/images/img-home-benefits.svg" alt="" height="120px" width="120px" class="home-img">
+      <p class="content-para">
+        RPA gives you extra capacity for growth. Centelli gives you quicker outcomes and ROI. While technology
+        does the heavy lifting, you gain time to focus on strategy, build relationships, define your customers’
+        needs and think of ways to grow your business.
+      </p>
+      <!-- ICONS SECTION -->
+      <ul>
+        <li class="img-1" id="sri"> <img src="./assets/images/icon-save-time.svg" alt="" width="55" height="55">
+          <span class="common"> Save time</span>
+        </li>
+        <li class="img-2" id="sri"> <img src="./assets/images/icon-minimise-cost.svg" width="55" height="55"
+            alt=""><span class="common">Minimise cost</span>
+        </li>
+        <li class="img-3" id="sri"><img src="./assets/images/icon-eliminate-errors.svg" alt="" width="55"
+            height="55"><span class="common">Eliminate errors</span></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- end youtube section -->
+
+  <!-- START: Section 4 Village Hotels
+    ==================================== -->
+  <section class="village-hotel container">
+    <div class="box">
+      <img src="./assets/images/img-village-case-study-hero-800x480.jpg" alt="hotel">
+    </div>
+    <div class="box box-con">
+      <p class="case-study">CASE STUDY: VILLAGE HOTELS</p>
+      <h1 class="hotel-head">Village Hotels unleashes the value of automation with RPA</h1>
+      <p class="detail">Centelli’s Digital Workers have liberated staff from mundane tasks, cut waste out of processes,
+        brought costs down and improved the guest experience at this lifestyle hotel brand.</p>
+      <div class="btnes">
+        <button class="btn2"><a href="#">Read more</a></button>
+        <button class=" btn1"><a href="#">See all case studies</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- end section 4 -->
+
+  <!-- start section 5 -->
+
+  <section class="bg--gradient-top">
+
+    <div class="container--inset">
+
+      <h2 class="h3 center">Our partners</h2>
+      <div class="our-partner">
+        <div class="our-partners">
+
+          <div class="our-partners__logo">
+            <img id="sri" src="./assets/images/UiPath_2019_Corporate_Logo-465x165.png" alt="UiPath Logo">
+          </div>
+
+          <div class="our-partners__details aos-init">
+
+            <p>World's leading RPA platform for process automation delivering rapid results at scale for
+              small to large enterprises.</p>
+
+          </div>
+        </div>
+
+        <div class="our-partners">
+          <div class="our-partners__logo">
+
+            <img id="sri" src="./assets/images/Birst-1-465x148.png" alt="Birst Logo" data-aos="fade-up"
+              data-aos-delay="200" class="aos-init aos-animate">
+
+          </div>
+
+          <div class="our-partners__details aos-init">
+
+            <p>Innovative quick to deploy, end-to-end cloud Business Analytics platform with a low TCO.</p>
+
+          </div>
+        </div>
+
+        <div class="our-partners">
+          <div class="our-partners__logo">
+            <img id="sri" src="./assets/images/Oracle-e1620745986208.png" alt="Oracle logo">
+          </div>
+
+          <div class="our-partners__details aos-init">
+
+            <p>Integrated Cloud – Applications and Platform Services</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section 5 -->
+
+  <!-- start section 6 -->
+  <div class="body-contant">
+    <div class="body">
+      <h2 class="our-tittle">Our certifications</h2>
+    </div>
+    <div class="main-contant">
+      <div class="first-logo">
+        <img class="logos" id="sri" src="./assets/images/MicrosoftTeams-image.png" alt="" />
+
+        <span>
+          <p class="contant">
+            <strong>Professional Services Certified</strong>
+            partner is one who has been rigorously vetted to join an elite
+            group of best-of-breed partners accredited with advanced delivery
+            skills and demonstrated success in real-world customer projects.
+          </p>
+        </span>
+      </div>
+      <div class="first-logo">
+      <img id="sri" class="logos" src="./assets/images/MicrosoftTeams-image (1).png" alt="" />
+       <span>
+          <p id="contant" class="contant">
+            Has satisfied all requirements to become fully registered supplier
+            on the FSQS (Banks, Building Societies, Insurance) qualification
+            system.
+          </p>
+        </span>
+      </div>
+      <div class="first-logo">
+        <img id="sri" class="logos" src="./assets/images/O-ValInt-OracleHospitality-clrrev-rgb-465x174.png" alt="" />
+        <span>
+          <p class="contant">
+            Centelli OS features a standard set of validated integrations
+            making it seamless for you to interact with OTAs, POS, and other
+            3rd party systems.
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- end section 6 -->
+
+  <!-- start section 7 -->
+
+  <section class="sectors-box-size  bg--gradient-horiz-blue">
+    <div class="hello">
+
+        <div>
+
+            <h2 class="center-text">Sectors we work with
+            </h2>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-right  btnss next"></i>
+        <i class="fa-solid fa-chevron-left  btnss prev"></i>
+
+        <div class="slice-track">
+
+            <div class="slick-slide">
+                <div class="box-size">
+                    <div class="b-size">
+                        <img src="./assets/images/icon-sector-retail.svg" alt="" srcset="">
+                        <a href="#"></a>
+                        <p style="margin-top:25px;">Supply Chain</p>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+                        <img src="./assets/images/healthcare-icon.svg" alt="" srcset="">
+
+                        <a href="#"></a>
+                        <p style="margin-top:23px;">Healthcare</p>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-automotive.svg" alt="" srcset="">
+                        <p style="margin-top:35px;">Automotive </p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-hospitality.svg" alt="" srcset="">
+                        <p style="margin-top:15px;">Construction</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-banking.svg" alt="" srcset="">
+                        <p style="margin-top:11px;">Financial Services</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-hospitality.svg" alt="" srcset="">
+                        <p style="margin-top:18px;">Hotels and Hospitality</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <!-- 2times*************** -->
+
+                <div class="box-size">
+                    <div class="b-size">
+                        <img src="./assets/images/icon-sector-retail.svg" alt="" srcset="">
+                        <a href="#"></a>
+                        <p style="margin-top:25px;">Supply Chain</p>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+                        <img src="./assets/images/healthcare-icon.svg" alt="" srcset="">
+
+                        <a href="#"></a>
+                        <p style="margin-top:23px;">Healthcare</p>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-automotive.svg" alt="" srcset="">
+                        <p style="margin-top:35px;">Automotive </p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-hospitality.svg" alt="" srcset="">
+                        <p style="margin-top:15px;">Construction</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-banking.svg" alt="" srcset="">
+                        <p style="margin-top:11px;">Financial Services</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div class="box-size">
+                    <div class="b-size">
+
+                        <img src="./assets/images/icon-sector-hospitality.svg" alt="" srcset="">
+                        <p style="margin-top:18px;">Hotels and Hospitality</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <i class="fas fa-angle-double-left btnss prev"></i>
+                <i class="fas fa-angle-double-right btnss next"></i>     -->
+            <!-- <a class="prev-next slick-arrow" id="next" style=""></a> -->
+            <!-- <img src="./assets/images/btn-prev-light.svg" class="btnss prev" style="width:15px; display: block;" alt="" srcset="">  
+                <img src="./assets/images/btn-next-light.svg" class="btnss next"  style="width:15px;" alt="" srcset="">   -->
+
+        </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+  <!-- end section 7 -->
+
+  <!-- start section 8 -->
+
+  <section class="sectors-box-size  bg--gradient-horiz-blues">
+    <div class="hello">
+      <div>
+        <h2 class="center-texts">Brands that trust Centelli
+        </h2>
+      </div>
+      <div class="slice-tracks">
+        <div class="slick-slides">
+          <div class="box-sizes">
+            <div class="b-sizes">
+              <img src="./assets/images/logo-Adesa3-296x120.png" alt="" srcset="">
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+              <img src="./assets/images/logo-arriva-vector-216x120.png" alt="" srcset="">
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+              <img src="./assets/images/logo-BHF-105x120.png" alt="" srcset="">
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+
+              <img src="./assets/images/logo-GLH-hotels-139x120.jpg" alt="" srcset="">
+
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+
+              <img src="./assets/images/logo-HandS-320x29.jpg" alt="" srcset="">
+
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+
+              <img src="./assets/images/logo-htb2-302x120.png" alt="" srcset="">
+
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <!-- 2times*************** -->
+
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+              <img src="./assets/images/logo-jato2-320x116.png" alt="" srcset="">
+
+              <a href="#"></a>
+
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+
+              <img src="./assets/images/logo-rivervale-leasing-320x93.png" alt="" srcset="">
+
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+
+              <img src="./assets/images/Logo-soho-house3-153x120.png" alt="" srcset="">
+
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+
+              <img src="./assets/images/logo-village-hotels2-320x99.png" alt="" srcset="">
+
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box-sizes">
+            <div class="b-sizes">
+
+              <img src="./assets/images/logo-vistry-320x61.png" alt="" srcset="">
+
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+        <i class="fas fa-angle-double-left btns prevs"></i>
+        <i class="fas fa-angle-double-right btns nexts"></i>
+      </div>
+    </div>
+    </div>
+
+    </div>
+
+  </section>
+  <!-- end section 8 -->
+  <!-- start section 9 -->
+
+  <section id="section">
+    <div class="container7">
+      <div class="photo">
+        <img id="sri" src="./assets/images/img-testimonials.svg" alt="" class="pic" />
+      </div>
+      <div class="contant7">
+        <h2 id="h2">What our clients say</h2>
+        <p class="p">
+          “It isn’t an out the box solution. Centelli look at the problem, and we’ll find a solution together”  </p>
+        <p class="project">
+          Neil Cryer, Head of IT Operations & Projects
+          <strong> Village Hotels</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- end section 9 -->
+  <img src="./assets/images/bg-red-lines.svg" alt="" class="red-line">
+
+  <!-- start section 10 -->
+
+  <section class="container10">
+    <div class="page">
+      <!-- Page head section -->
+      <div class="parent">
+        <div>
+          <h4 class="H1">Latestform <span id="span">theblog</span></h4>
+        </div>
+        <div class="change">
+          <a href="#" class="block">Visit the blog</a>
+        </div>
+      </div>
+      <!-- First content Section -->
+      <div class="sub-container fade-1">
+        <img class="images" id="sri" src="./assets/images/page.png" alt="">
+        <h3 class="H3"><a class="a" href="#">Centelli Ranked BEST Robotic Process Automation Technology Company by SME
+            Business
+            News!</a></h3>
+        <span id="span">
+          <p>JULY 20, 2022</p>
+        </span>
+        <p class="content10">It's official… Centelli is now ranked as the UK’s BEST Robotic Process Automation
+          Technology Company by…</p>
+        <!-- btn -->
+        <div class="up">
+          <a href="#" class="more">Read more</a>
+        </div>
+
+      </div>
+      <!-- Second content Section -->
+      <div class="sub-container fade-2">
+        <img class="images" id="sri" src="./assets/images/Last-Mile.jpeg">
+        <h3 class="H3"><a class="a" href="#">Last Mile Delivery for AUTOMATION</a></h3>
+        <span id="span">
+          <p>JULY 7, 2022</p>
+        </span>
+        <p class="content10">RPA Today - Last Mile Delivery ArticlePixieBrix and UiPath combined bring a powerful
+          solution to automating…</p>
+        <!-- btn -->
+        <div class="up">
+          <a href="#" class="more">Read more</a>
+        </div>
+      </div>
+      <!-- Third content Section -->
+      <div class="sub-container fade-3">
+        <img class="images" id="sri" src="./assets/images/img-sector-hotels-hospitality-800x400.jpg" alt="">
+        <h3 class="H3"><a class="a" href="#">Robotic Process Automation in the Hotel & Hospitality Sector</a></h3>
+        <span id="span">
+          <p>JUNE 17, 2021</p>
+        </span>
+        <p class="content10 con-2">The hospitality industry is finally opening up again. After a year of staying in,
+          people are…</p>
+        <!-- btn -->
+        <div class="up">
+          <a href="#" class="more">Read more</a>
+        </div>
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end section 10 -->
+
+  <!-- start section 11 -->
+  <section>
+    <div class="head">
+      <img src="./assets/images/bg-cta2.jpg" alt="image" class="image-last">
+      <p class="para1">Start your business transformation with Centelli</p>
+      <p class="para2">Solve problems you don't
+        know exist,with free scoping and proof of concepts
+      </p>
+      <button class="btnp" onclick="openPopup()">Start today</button>
+
+      <div class="popup">
+
+        <button class="close" onclick="closePopup()">CLOSE</button>
+        <h3 class="business">Your business transformation starts here</h3>
+        <p class="send-us">Send us a message and learn how We can improve business for maximun ROI</p>
+        <p class="submission"><span>There was a problem with your submission.Please review
+            the fields below. </span></p>
+        <form class="popup-input" action="index.html">
+          <input type="text" placeholder="Name*" class="inputbox" id="inputbox1">
+          <p class="error"> This Field is Required</p>
+          <input type="number" placeholder="Phone" class="inputbox" id="box1">
+          <input type="email" placeholder="Email*" class="inputbox" id="email">
+          <p class="error1">This Field is Required</p>
+          <textarea class="msg" placeholder="message" id="msg"></textarea>
+        </form>
+        <p class="policy">This form collects your information to
+          enable us to deal with your enquiry.Read our <a href="">Privacy policy</a> for more
+          information about how we manage your data.</p>
+        <button class="getstarted" onClick="validate()">Get started</button>
+      </div>
+    </div>
+  </section>
+  <!-- end section 11 -->
+  <!-- start section 12 -->
+
+  <section class="sec">
+    <div class="overall">
+      <div class="mobile-view">
+        <div class="united-1">
+          <h2 class="blue">Contact</h2>
+          <h6 class="heading">United Kingdom</h6>
+          <p>60 St Martin's Lane</p>
+          <p>London</p>
+          <p class="break">WC2N 4JS</p>
+          <p class="detail"><strong>Tel: </strong> <a href="+44 7900 232396"> +44 7900 232396</p></a>
+          <p class="detail"><strong> Email:</strong><a href="info@Centelli.com"> info@Centelli.com</p></a>
+        </div>
+
+        <div class="united-2">
+          <h6 class="heading">United States</h6>
+          <p>5555 Glenridge Connector</p>
+          <p>Suite 200</p>
+          <p class="break">Atlanta,GA 30342</p>
+          <p class="detail"><strong>Tel: </strong> <a href=" +678 566 6942"> +678 566 6942</p></a>
+          <p class="detail"><strong> Email:</strong><a href="info@Centelli.com"> info@Centelli.com</p></a>
+        </div>
+        <div class="united-3">
+          <h6 class="heading">India</h6>
+          <p>Plot No.20</p>
+          <p>EDC Building IT Park,</p>
+          <p class="break">Chandigarh</p>
+          <p class="detail"> <strong>Tel: </strong><a href=" +91 9840 03920"> +91 9840 03920</p></a>
+          <p class="detail"> <strong> Email:</strong><a href="info@Centelli.com"> info@Centelli.com</p></a>
+        </div>
+        <div class="united-4">
+          <h2 class="blue">Connect</h2>
+          <div class="icon-sec">
+            <div class="animation-1">
+              <a href="https://twitter.com/i/flow/login">
+                <div class="icons1"><i class="fa-brands fa-twitter"></i></div>
+              </a>
+            </div>
+            <div class="animation-2">
+              <a href="https://www.linkedin.com/ ">
+                <div class="icons2"><i class="fa-brands fa-linkedin"></i></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="endone"> &#169; Copyright 2022 - Centelli, Registered as Centelli Ltd, 9271728 in England Website
+        Design:Pad Creativity | Privacy Policy
+        Design: <a href="https://padcreative.co.uk/"> <span class="red"> Pad Creativity</span></a><a
+          href="https://centelli.com/privacy-policy/"><span class="red">Privacy Policy</span></a></p>
+    </div>
+    </div>
+    </div>
+    </footer>
+  </section>
+
+  <!-- end section 12 -->
+</body>
+
+</html>
